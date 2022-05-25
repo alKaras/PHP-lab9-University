@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: padding-box;
+}
+
+form {
+    width: 1000px;
+    padding: 20px;
+    background: skyblue;
+    border-radius: 20px;
+
+}
+
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {
+    display: inline-block;
+    width: 100px;
+    margin: 0px 25px 0px 15px;
+    padding: 5px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #0c0101;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.reg-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    background-color: darkcyan;
+    font-weight: 500;
+    width: 100px;
+    margin: 0px 25px 0px 0px;
+    padding: 4px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;   
+}
+
+.register {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;    
+}
+
+
+.delete {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+
+.delete:hover {
+    color:black;
+}

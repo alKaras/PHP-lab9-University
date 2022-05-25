@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px; 
+}
+
+.column {
+    flex:50%;
+    padding:10px;
+}
+
+caption {
+    font-weight: bold;
+    padding:10px;
+    background: lightblue;
+    border:2px solid black;
+}
+
+th {
+    background-color: lightskyblue;
+}
+
+table, td, th {
+    width: 100%;
+    border: 1px solid black;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+
+.pagination {   
+    display: inline-block;      
+}   
+.pagination a { 
+    font-weight:bold;   
+    font-size:18px;   
+    color: black;   
+    float: left;   
+    padding: 8px 16px;   
+    text-decoration: none;   
+    border:1px solid black;
+}   
+.pagination a.active {   
+    background-color: lightskyblue;   
+}   
+.pagination a:hover:not(.active) {   
+    background-color: lightpink;   
+}
+
+
